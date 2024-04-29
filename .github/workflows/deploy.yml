@@ -1,0 +1,47 @@
+name: Deploy to Raspberry test
+
+on:
+  push:
+    branches:
+      - main # Change this to your main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 18
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build
+
+    - name: Scp to Raspberry Pi
+      uses: appleboy/scp-action@v0.1.7
+      with:
+        host: ${{ secrets.RASPBERRY_PI_HOST }}
+        username: ${{ secrets.RASPBERRY_PI_USERNAME }}
+        key: ${{ secrets.RASPBERRY_PI_PRIVATE_KEY }}
+        port: ${{ secrets.RASPBERRY_PI_PORT }}
+        source: ${{ github.workspace }}/*
+        target: /var/www/gatsby/
+          
+#    - name: Copy and Restart Service
+#     uses: appleboy/ssh-action@v1.0.3
+#      with:
+#        host: ${{ secrets.RASPBERRY_PI_HOST }}
+#        username: ${{ secrets.RASPBERRY_PI_USERNAME }}
+#        key: ${{ secrets.RASPBERRY_PI_PRIVATE_KEY }}
+#        port: ${{ secrets.RASPBERRY_PI_PORT }}
+#        script: |
+#          systemctl stop inverter.service
+#          cp -rf /InverterScheduleClient/EasunScheduleApi/github/workspace/publish/* /InverterScheduleClient/api/publish/
+
