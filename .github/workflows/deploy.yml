@@ -33,6 +33,7 @@ jobs:
         port: ${{ secrets.RASPBERRY_PI_PORT }}
         source: ${{ github.workspace }}/*
         target: /var/www/gatsby/
+        
           
 #    - name: Copy and Restart Service
 #     uses: appleboy/ssh-action@v1.0.3
