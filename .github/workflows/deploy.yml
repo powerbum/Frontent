@@ -31,8 +31,8 @@ jobs:
         username: ${{ secrets.RASPBERRY_PI_USERNAME }}
         key: ${{ secrets.RASPBERRY_PI_PRIVATE_KEY }}
         port: ${{ secrets.RASPBERRY_PI_PORT }}
-        source: ${{ github.workspace }}/*
-        target: /var/www/gatsby/
+        source: public/
+        target: /InverterScheduleClient/gatsby
         
           
 #    - name: Copy and Restart Service
