@@ -5,6 +5,7 @@
   "version": "2.2.0",
   "author": "@envytheme",
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "fslightbox-react": "^1.7.4",

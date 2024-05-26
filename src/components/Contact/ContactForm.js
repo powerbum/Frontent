@@ -1,24 +1,19 @@
-import React from "react"
-import starIcon from "../../images/star-icon.png"
-import contact from "../../images/contact.png"
+import React, { useState } from "react";
+import contact from "../../images/contact.png";
+import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm = () => {
+  const [state, handleSubmit] = useForm("xkndakne");
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
   return (
     <>
       <section className="contact-area pb-100">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">
-              <img src={starIcon} alt="contact" />
-              Get in Touch
-            </span>
-            <h2>Ready to Get Started?</h2>
-            <p>
-              Your email address will not be published. Required fields are
-              marked *
-            </p>
+            <h2>Contact Us</h2>
           </div>
-
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="contact-image">
@@ -28,72 +23,63 @@ const ContactForm = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="contact-form">
-                <form id="contactForm">
-                  <div className="row">
-                    <div className="col-lg-12 col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="name"
-                          className="form-control"
-                          required
-                          placeholder="Your name"
-                        />
+                {state.succeeded ? (
+                  <p>Thank you for contacting us! We will get back to you shortly.</p>
+                ) : (
+                  <form onSubmit={handleSubmit}>
+                    <div className="row">
+                      <div className="col-lg-12 col-md-6">
+                        <div className="form-group">
+                          <input
+                            id="email"
+                            type="email"
+                            name="email"
+                            className="form-control"
+                            required
+                            placeholder="Your email address"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                          />
+                          <ValidationError
+                            prefix="Email"
+                            field="email"
+                            errors={state.errors}
+                          />
+                        </div>
+                      </div>
+
+                      <div className="col-lg-12 col-md-12">
+                        <div className="form-group">
+                          <textarea
+                            id="message"
+                            name="message"
+                            className="form-control"
+                            cols="30"
+                            rows="6"
+                            required
+                            placeholder="Write your message..."
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                          />
+                        </div>
+                      </div>
+
+                      <div className="col-lg-12 col-md-12">
+                        <button type="submit" className="default-btn" disabled={state.submitting}>
+                          <i className="flaticon-tick"></i>
+                          Send Message <span></span>
+                        </button>
                       </div>
                     </div>
-
-                    <div className="col-lg-12 col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          name="email"
-                          className="form-control"
-                          required
-                          placeholder="Your email address"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-12 col-md-12">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="phone_number"
-                          className="form-control"
-                          required
-                          placeholder="Your phone number"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-12 col-md-12">
-                      <div className="form-group">
-                        <textarea
-                          name="message"
-                          className="form-control"
-                          cols="30"
-                          rows="6"
-                          required
-                          placeholder="Write your message..."
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-12 col-md-12">
-                      <button type="submit" className="default-btn">
-                        <i className="flaticon-tick"></i>
-                        Send Message <span></span>
-                      </button>
-                    </div>
-                  </div>
-                </form>
+                  </form>
+                )}
               </div>
             </div>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default ContactForm
+export default ContactForm;

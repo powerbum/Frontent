@@ -1,8 +1,13 @@
-import React from "react"
-import subscribeImg1 from "../../images/subscribe-img1.png"
-import shape6 from "../../images/shape/vector-shape6.png"
+import React, { useState } from "react";
+import { useForm, ValidationError } from '@formspree/react';
+import subscribeImg1 from "../../images/subscribe-img1.png";
+import shape6 from "../../images/shape/vector-shape6.png";
 
 const Subscribe = () => {
+  const [state, handleSubmit] = useForm("xdoqvyka");
+  const [email, setEmail] = useState('');
+
+
   return (
     <>
       <div className="subscribe-area ptb-100">
@@ -16,25 +21,38 @@ const Subscribe = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="subscribe-content">
-                <h2>We Like to Start Your Project With Us</h2>
+                <h2>Subscribe And Get The Latest Information</h2>
+                {state.succeeded ? (
+                  <p>Thank you for subscribing!</p>
+                ) : (
+                  <div>
+
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna.
+                Stay informed on AI-powered battery charging solutions. Subscribe to our newsletter for the latest news, insights, and exclusive offers. Join our community and optimize your home energy management today!
                 </p>
 
-                <form className="newsletter-form">
-                  <input
-                    type="text"
-                    className="input-newsletter"
-                    placeholder="Enter your email address"
-                    name="email"
-                    required
-                  />
-                  <button type="submit" className="default-btn">
-                    <i className="flaticon-tick"></i>
-                    Subscribe Now <span></span>
-                  </button>
-                </form>
+                    <form className="newsletter-form" onSubmit={handleSubmit}>
+                      <input
+                        type="email"
+                        className="input-newsletter"
+                        placeholder="Enter your email address"
+                        name="email"
+                        required
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                      />
+                      <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
+                      />
+                      <button type="submit" className="default-btn" disabled={state.submitting}>
+                        <i className="flaticon-tick"></i>
+                        Subscribe Now <span></span>
+                      </button>
+                    </form>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -45,7 +63,7 @@ const Subscribe = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Subscribe
+export default Subscribe;
