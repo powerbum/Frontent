@@ -114,7 +114,7 @@ const Footer = () => {
 
           <div className="col-lg-4 col-sm-6">
             <div className="single-footer-widget">
-              <h3>Address</h3>
+              {/* <h3>Address</h3>
 
               <ul className="footer-contact-info">
                 <li>
@@ -129,7 +129,7 @@ const Footer = () => {
                   <i className="bx bx-envelope"></i>
                   <a href="mailto:info@bimbam.com">info@bimbam.com</a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

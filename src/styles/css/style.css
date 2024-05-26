@@ -851,9 +851,10 @@ textarea.form-control {
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 365px;
+  padding-top: 165px;
   padding-bottom: 350px;
 }
+
 .main-banner .container-fluid {
   max-width: 1360px;
 }
@@ -996,8 +997,8 @@ textarea.form-control {
   background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 365px;
-  padding-bottom: 350px;
+  padding-top: 165px;
+  padding-bottom: 150px;
 }
 .banner-section .container-fluid {
   max-width: 1360px;
@@ -1403,8 +1404,8 @@ textarea.form-control {
   background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 350px;
-  padding-bottom: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .banner-wrapper .container-fluid {
   max-width: 1360px;

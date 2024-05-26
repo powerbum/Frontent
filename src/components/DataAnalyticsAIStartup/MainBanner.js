@@ -1,24 +1,12 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import AOS from "aos";
-import FsLightbox from "fslightbox-react"
-import { Link } from "gatsby"
+import FsLightbox from "fslightbox-react";
+import { Link } from "gatsby";
 
-import img1 from "../../images/main-banner/banner-two/banner-two-shape1.png"
-import img2 from "../../images/main-banner/banner-two/banner-two-shape2.png"
-import img3 from "../../images/main-banner/banner-two/banner-two-shape3.png"
-import img4 from "../../images/main-banner/banner-two/banner-two-shape4.png"
-import img5 from "../../images/main-banner/banner-two/banner-two-shape5.png"
-import img6 from "../../images/main-banner/banner-two/banner-two-shape6.png"
-import img7 from "../../images/main-banner/banner-two/banner-two-shape7.png"
-import img8 from "../../images/main-banner/banner-two/banner-two-shape8.png"
-import img9 from "../../images/main-banner/banner-two/banner-two-shape9.png"
-import img10 from "../../images/main-banner/banner-two/banner-two-shape10.png"
-import img11 from "../../images/main-banner/banner-two/banner-two-shape11.png"
-import img12 from "../../images/main-banner/banner-two/banner-two-shape12.png"
-import img13 from "../../images/main-banner/banner-two/banner-two-main-img.png"
+import banner14 from "../../images/banner14.png";
 
 const MainBanner = () => {
-  const [toggler, setToggler] = useState(false)
+  const [toggler, setToggler] = useState(false);
 
   React.useEffect(() => {
     AOS.init();
@@ -26,22 +14,19 @@ const MainBanner = () => {
 
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} />
 
-      <div className="banner-section overflow-hidden">
+      <div className="banner-wrapper overflow-hidden">
         <div className="container-fluid">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
-              <div className="banner-content">
+              <div className="banner-wrapper-content">
                 <h1
                   data-aos="fade-right"
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  AI-Powered Home Battery Trading Unleashes Savings and Sustainability!
+                  AI Powered Home Energy Solutions
                 </h1>
 
                 <p
@@ -49,9 +34,9 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Revolutionize your home's energy landscape with our AI-driven Home Battery 
-                  Trading Solution, optimizing energy usage, predicting market trends, and 
-                  facilitating seamless energy trading for cost savings and environmental impact.
+                  Transform your home's energy landscape with our Home Battery Trading Solution.
+                  Maximize your profits by selling stored energy when prices are highest and buying
+                  when they are lowest. Enjoy cost savings and reduce your environmental impact effortlessly.
                 </p>
 
                 <div
@@ -64,100 +49,27 @@ const MainBanner = () => {
                     <i className="flaticon-right"></i>
                     About Us <span></span>
                   </Link>
-
-                  {/* <div
-                    onClick={() => setToggler(!toggler)}
-                    className="video-btn"
-                    aria-hidden="true"
-                  >
-                    <i className="flaticon-google-play"></i> Watch Video
-                  </div> */}
+                  <Link to="/profile-authentication" className="default-btn">
+                    <i className="flaticon-tick"></i>
+                    Get Started <span></span>
+                  </Link>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-7 col-md-12">
-              <div className="banner-animation-image">
-                <img
-                  src={img2}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img2}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img3}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img4}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img5}
-                  alt="banner"
-                  className="animate__animated animate__fadeInUp animate__delay-1s"
-                />
-
-                <img
-                  src={img6}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img7}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img8}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img9}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img10}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img11}
-                  alt="banner"
-                  className="animate__animated animate__fadeInDown animate__delay-1s"
-                />
-
-                <img
-                  src={img12}
-                  alt="banner"
-                  className="animate__animated animate__fadeInLeft animate__delay-1s"
-                />
-
-                <img src={img13} alt="banner" />
-              </div>
+              <img
+                src={banner14}
+                alt="banner"
+                className="animate__animated animate__fadeInDown animate__delay-1s"
+                style={{ width: "100%" }}
+              />
             </div>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default MainBanner
+export default MainBanner;

@@ -7,10 +7,11 @@ const Pricing = () => {
       <section className="pricing-area pt-100 pb-70 bg-f4f7fe">
         <div className="container">
           <div className="section-title">
-            <h2>Our Affordable Pricing Plans</h2>
+            <h2>Solutions</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
+            Here are our solutions and plans: maximize profits and 
+            reduce costs effortlessly with our Home Battery Trading 
+            Solution by selling stored energy when prices are highest and buying when they are lowest
             </p>
           </div>
 
@@ -18,34 +19,27 @@ const Pricing = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-pricing-box">
                 <div className="pricing-header">
-                  <h3>Weekly Plan</h3>
+                  <h3>Monthly Expenses</h3>
                 </div>
 
                 <div className="price">
-                  <sup>$</sup> 120 <sub>/ Per week</sub>
+                  <sup>$</sup> -80 <sub></sub>
+                </div>
+                
+                <div className="pricing-header">
+                  <h3>Cost After</h3>
+                </div>
+
+                <div className="price">
+                  <sup>$</sup> -80 <sub></sub>
                 </div>
 
                 <ul className="pricing-features">
                   <li>
-                    <i className="bx bxs-badge-check"></i> SEO & Branding
+                    <i className="bx bxs-x-circle red"></i> 10KW Batery
                   </li>
                   <li>
-                    <i className="bx bxs-badge-check"></i> Digital Marketing
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Google Analytics
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Branding Solutions
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Digital Accounts
-                  </li>
-                  <li>
-                    <i className="bx bxs-x-circle red"></i> Pay-per-Click
-                  </li>
-                  <li>
-                    <i className="bx bxs-x-circle red"></i> 24/7 Support
+                    <i className="bx bxs-x-circle red"></i> 10KWH Solar panels
                   </li>
                 </ul>
 
@@ -62,34 +56,27 @@ const Pricing = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-pricing-box">
                 <div className="pricing-header">
-                  <h3>Month Plan</h3>
+                  <h3>Monthly Expenses</h3>
                 </div>
 
                 <div className="price">
-                  <sup>$</sup> 840 <sub>/ Per month</sub>
+                  <sup>$</sup> -80 <sub></sub>
+                </div>
+                
+                <div className="pricing-header">
+                  <h3>Cost After</h3>
+                </div>
+
+                <div className="price">
+                  <sup>$</sup> -30 <sub></sub>
                 </div>
 
                 <ul className="pricing-features">
                   <li>
-                    <i className="bx bxs-badge-check"></i> SEO & Branding
+                    <i className="bx bxs-badge-check"></i> 10KW Batery
                   </li>
                   <li>
-                    <i className="bx bxs-badge-check"></i> Digital Marketing
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Google Analytics
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Branding Solutions
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Digital Accounts
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Pay-per-Click
-                  </li>
-                  <li>
-                    <i className="bx bxs-x-circle red"></i> 24/7 Support
+                    <i className="bx bxs-x-circle red"></i> 10KWH Solar panels
                   </li>
                 </ul>
 
@@ -103,37 +90,30 @@ const Pricing = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+            <div className="col-lg-4 col-md-6">
               <div className="single-pricing-box">
                 <div className="pricing-header">
-                  <h3>Yearly Plan</h3>
+                  <h3>Monthly Expenses</h3>
                 </div>
 
                 <div className="price">
-                  <sup>$</sup> 3,600 <sub> / Per yearly</sub>
+                  <sup>$</sup> 80 <sub></sub>
+                </div>
+                
+                <div className="pricing-header">
+                  <h3>Cost After</h3>
+                </div>
+
+                <div className="price">
+                  <sup>$</sup> 30 <sub></sub>
                 </div>
 
                 <ul className="pricing-features">
                   <li>
-                    <i className="bx bxs-badge-check"></i> SEO & Branding
+                    <i className="bx bxs-badge-check"></i> 10KW Batery
                   </li>
                   <li>
-                    <i className="bx bxs-badge-check"></i> Digital Marketing
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Google Analytics
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Branding Solutions
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Digital Accounts
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> Pay-per-Click
-                  </li>
-                  <li>
-                    <i className="bx bxs-badge-check"></i> 24/7 Support
+                    <i className="bx bxs-badge-check"></i> 10KWH Solar panels
                   </li>
                 </ul>
 

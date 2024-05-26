@@ -15,6 +15,8 @@ import Partner from "../components/DataAnalyticsAIStartup/Partner"
 import StartProject from "../components/DataAnalyticsAIStartup/StartProject"
 import OurBlog from "../components/DataAnalyticsAIStartup/BlogPost"
 import Footer from "../components/_App/Footer"
+import Pricing from "../components/SEOAgency/Pricing"
+import Subscribe from "../components/DataScienceOnlineCourses/Subscribe"
 
 const IndexPage = () => {
   return (
@@ -24,6 +26,10 @@ const IndexPage = () => {
 
       <MainBanner />
 
+      <Pricing />
+
+      <Subscribe />
+      
       {/* <AboutUs />
 
       <FeaturedService />
