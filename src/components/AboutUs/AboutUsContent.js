@@ -27,36 +27,41 @@ const AboutUsContent = () => {
                     <img src={starIcon} alt="banner" />
                     About Us
                   </span>
-                  <h2>Crafting Tomorrow's Sustainable Vision</h2>
+                  <h2>Welcome to our innovative world of energy management!</h2>
                   <p>
-                  We are dedicated to shaping a sustainable tomorrow by pioneering innovative solutions for green living. Our commitment is reflected in:
+                  At SmartChargeAI, we are dedicated to transforming the way you interact with energy in your home. 
+                  Our Home Battery Trading Solution is designed to empower homeowners like you to take control of your energy usage, 
+                  optimize your costs, and contribute to a greener planet. Our commitment is reflected in:
                   </p>
+
                   <ul className="about-list">
                     <li>
                       <i className="flaticon-tick"></i>
-                      Cutting-Edge Technology
+                      Smart Energy Trading
                       <img src={shape2} alt="banner" />
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Customer-Centric Approach
+                      Cost Savings
                       <img src={shape2} alt="banner" />
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Environmental Stewardship
+                      Environmental Impact
                       <img src={shape2} alt="banner" />
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Continuous Innovation
+                      User-Centric Design
                       <img src={shape2} alt="banner" />
                     </li>
                   </ul>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
-                  </p>
+
+                  <h3>Our Mission</h3>
+                  <p>Our mission is to revolutionize home energy management by providing a smart, 
+                    user-friendly solution that maximizes your financial and environmental benefits. 
+                    We believe in a future where energy is managed efficiently, sustainably, and economically, 
+                    and our cutting-edge technology is here to make that future a reality.</p>
                   {/* <Link to="/about-us" className="default-btn">
                     <i className="flaticon-right"></i>
                     More About Us <span></span>

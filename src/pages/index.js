@@ -17,6 +17,7 @@ import OurBlog from "../components/DataAnalyticsAIStartup/BlogPost"
 import Footer from "../components/_App/Footer"
 import Pricing from "../components/SEOAgency/Pricing"
 import Subscribe from "../components/DataScienceOnlineCourses/Subscribe"
+import ContactForm from '../components/Contact/ContactForm';
 
 const IndexPage = () => {
   return (
@@ -27,6 +28,10 @@ const IndexPage = () => {
       <MainBanner />
 
       <Pricing />
+
+      <OurServices />
+
+      <ContactForm/>
 
       <Subscribe />
       

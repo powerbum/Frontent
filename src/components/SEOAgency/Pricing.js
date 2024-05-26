@@ -44,7 +44,7 @@ const Pricing = () => {
                 </ul>
 
                 <div className="btn-box">
-                  <Link to="#" className="default-btn">
+                  <Link to="/contact" className="default-btn">
                     <i className="flaticon-tick"></i>
                     Select the Plan
                     <span></span>
@@ -81,7 +81,7 @@ const Pricing = () => {
                 </ul>
 
                 <div className="btn-box">
-                  <Link to="#" className="default-btn">
+                  <Link to="/contact" className="default-btn">
                     <i className="flaticon-tick"></i>
                     Select the Plan
                     <span></span>
@@ -118,7 +118,7 @@ const Pricing = () => {
                 </ul>
 
                 <div className="btn-box">
-                  <Link to="#" className="default-btn">
+                  <Link to="/contact" className="default-btn">
                     <i className="flaticon-tick"></i>
                     Select the Plan
                     <span></span>

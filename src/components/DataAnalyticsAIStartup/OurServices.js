@@ -21,10 +21,6 @@ const OurServices = () => {
               Our Services
             </span>
             <h2>We Offer Professional Solutions For Business</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
-            </p>
           </div>
 
           <div className="row">
@@ -34,15 +30,13 @@ const OurServices = () => {
                   <img src={icon1} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">Customer Analytics</Link>
+                  <Link to="/services/algotrading">Algorithm-Driven Energy Trading</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  doloresssit amet aliqua.
+                Maximize Your Energy Profits with Intelligent Trading
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link to="/services/algotrading" className="default-btn">
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -62,15 +56,13 @@ const OurServices = () => {
                   <img src={icon2} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">Risk Analytics</Link>
+                  <Link to="/services/batteryinstallation">Professional Battery Installation</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  doloresssit amet aliqua.
+                Enhance Your Home's Energy Storage with Expert Battery Installation
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link to="/services/batteryinstallation" className="default-btn">
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -90,15 +82,13 @@ const OurServices = () => {
                   <img src={icon3} alt="Icon" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">Social Media Analytics</Link>
+                  <Link to="/services/solarinstallation">Solar Panel Installation</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  doloresssit amet aliqua.
+                Harness the Power of the Sun with Our Solar Panel Installation Service
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link to="/services/solarinstallation" className="default-btn">
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -111,7 +101,7 @@ const OurServices = () => {
                 </div>
               </div>
             </div>
-
+{/* 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-item">
                 <div className="icon">
@@ -194,16 +184,16 @@ const OurServices = () => {
                   <img src={shape2} alt="Icon" />
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-12 col-md-12">
+            {/* <div className="col-lg-12 col-md-12">
               <div className="load-more-btn text-center">
                 <Link to="/services" className="default-btn">
                   <i className="flaticon-refresh"></i>
                   Load More <span></span>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

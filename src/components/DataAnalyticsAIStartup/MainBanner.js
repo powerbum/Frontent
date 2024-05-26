@@ -49,10 +49,10 @@ const MainBanner = () => {
                     <i className="flaticon-right"></i>
                     About Us <span></span>
                   </Link>
-                  <Link to="/profile-authentication" className="default-btn">
+                  {/* <Link to="/profile-authentication" className="default-btn">
                     <i className="flaticon-tick"></i>
                     Get Started <span></span>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

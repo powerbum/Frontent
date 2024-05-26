@@ -5,6 +5,7 @@ import { useForm, ValidationError } from '@formspree/react';
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("xkndakne");
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
 
   return (
@@ -43,6 +44,25 @@ const ContactForm = () => {
                           <ValidationError
                             prefix="Email"
                             field="email"
+                            errors={state.errors}
+                          />
+                        </div>
+                      </div>
+
+                      <div className="col-lg-12 col-md-6">
+                        <div className="form-group">
+                          <input
+                            id="phone"
+                            type="tel"
+                            name="phone"
+                            className="form-control"
+                            placeholder="Your phone number (optional)"
+                            value={phone}
+                            onChange={(e) => setPhone(e.target.value)}
+                          />
+                          <ValidationError
+                            prefix="Phone"
+                            field="phone"
                             errors={state.errors}
                           />
                         </div>
