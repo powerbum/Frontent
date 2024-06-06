@@ -6,6 +6,7 @@ import PageBanner from "../../components/Common/PageBanner"
 import ServiceDetailsContent from "../../components/ServiceDetails/ServiceDetailsContent"
 import RelatedServices from "../../components/ServiceDetails/RelatedServices"
 import Footer from "../../components/_App/Footer"
+import AlgoTrading from "../../components/ServiceDetails/Algotrading"
 
 const ServiceDetailsPage = () => {
   return (
@@ -16,10 +17,10 @@ const ServiceDetailsPage = () => {
         pageTitle="Service Details"
         homePageText="Home"
         homePageUrl="/"
-        activePageText="Service Details"
+        activePageText="Algo Trading"
       />
 
-      <ServiceDetailsContent />
+      <AlgoTrading />
 
       {/* <RelatedServices /> */}
 

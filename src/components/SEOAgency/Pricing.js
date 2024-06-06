@@ -25,14 +25,6 @@ const Pricing = () => {
                 <div className="price">
                   <sup>$</sup> -80 <sub></sub>
                 </div>
-                
-                <div className="pricing-header">
-                  <h3>Cost After</h3>
-                </div>
-
-                <div className="price">
-                  <sup>$</sup> -80 <sub></sub>
-                </div>
 
                 <ul className="pricing-features">
                   <li>
@@ -57,14 +49,6 @@ const Pricing = () => {
               <div className="single-pricing-box">
                 <div className="pricing-header">
                   <h3>Monthly Expenses</h3>
-                </div>
-
-                <div className="price">
-                  <sup>$</sup> -80 <sub></sub>
-                </div>
-                
-                <div className="pricing-header">
-                  <h3>Cost After</h3>
                 </div>
 
                 <div className="price">
@@ -94,14 +78,6 @@ const Pricing = () => {
               <div className="single-pricing-box">
                 <div className="pricing-header">
                   <h3>Monthly Expenses</h3>
-                </div>
-
-                <div className="price">
-                  <sup>$</sup> 80 <sub></sub>
-                </div>
-                
-                <div className="pricing-header">
-                  <h3>Cost After</h3>
                 </div>
 
                 <div className="price">
