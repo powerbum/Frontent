@@ -32,7 +32,7 @@ jobs:
         key: ${{ secrets.RASPBERRY_PI_PRIVATE_KEY }}
         port: ${{ secrets.RASPBERRY_PI_PORT }}
         source: public/
-        target: /InverterScheduleClient/gatsby
+        target: /InverterSchedule/gatsby
         
           
 #    - name: Copy and Restart Service
