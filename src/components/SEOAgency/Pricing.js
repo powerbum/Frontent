@@ -64,7 +64,7 @@ const Pricing = () => {
                   </li>
                 </ul>
 
-                <div className="btn-box">
+                <div className="btn-box"> 
                   <Link to="/contact" className="default-btn">
                     <i className="flaticon-tick"></i>
                     Select the Plan
