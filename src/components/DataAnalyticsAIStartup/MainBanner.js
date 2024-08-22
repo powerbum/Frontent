@@ -26,7 +26,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  AI Powered Home Energy Solutions
+                  Dirbtinio intelekto valdomi namų energijos sprendimai
                 </h1>
 
                 <p
@@ -34,9 +34,9 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Transform your home's energy landscape with our Home Battery Trading Solution.
-                  Maximize your profits by selling stored energy when prices are highest and buying
-                  when they are lowest. Enjoy cost savings and reduce your environmental impact effortlessly.
+                  Pakeiskite savo namų energijos kraštovaizdį su mūsų namų baterijų prekybos sprendimu. 
+                  Maksimaliai padidinkite savo pelną parduodami sukauptą energiją, 
+                  kai kainos yra aukščiausios, ir pirkdami, kai jos yra žemiausios. 
                 </p>
 
                 <div

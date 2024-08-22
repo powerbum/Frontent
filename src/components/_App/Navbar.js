@@ -72,12 +72,23 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
+                          to="/services"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                    >
+                      Produktai
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
                           to="/about-us"
                           activeClassName="active"
                           onClick={() => setCollapsed(true)}
                           className="nav-link"
                     >
-                      About Us
+                      Apie mus
                     </Link>
                   </li>
 
@@ -88,7 +99,7 @@ const Navbar = () => {
                       onClick={() => setCollapsed(true)}
                       className="nav-link"
                     >
-                      Contact
+                      Kontaktai
                     </Link>
                   </li>
 

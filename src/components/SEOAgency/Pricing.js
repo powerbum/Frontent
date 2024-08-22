@@ -7,11 +7,11 @@ const Pricing = () => {
       <section className="pricing-area pt-100 pb-70 bg-f4f7fe">
         <div className="container">
           <div className="section-title">
-            <h2>Solutions</h2>
+            <h2>Sprendimai</h2>
             <p>
-            Here are our solutions and plans: maximize profits and 
-            reduce costs effortlessly with our Home Battery Trading 
-            Solution by selling stored energy when prices are highest and buying when they are lowest
+            Štai mūsų sprendimai ir planai: maksimaliai padidinkite pelną ir sumažinkite išlaidas 
+            lengvai su mūsų namų baterijų prekybos sprendimu, parduodami sukauptą energiją, 
+            kai kainos yra aukščiausios, ir pirkdami, kai jos yra žemiausios.
             </p>
           </div>
 
@@ -19,7 +19,7 @@ const Pricing = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-pricing-box">
                 <div className="pricing-header">
-                  <h3>Monthly Expenses</h3>
+                  <h3>Mėnesinės išlaidos</h3>
                 </div>
 
                 <div className="price">
@@ -28,17 +28,17 @@ const Pricing = () => {
 
                 <ul className="pricing-features">
                   <li>
-                    <i className="bx bxs-x-circle red"></i> 10KW Batery
+                    <i className="bx bxs-x-circle red"></i> 10KW Kaupiklis (Baterija)
                   </li>
                   <li>
-                    <i className="bx bxs-x-circle red"></i> 10KWH Solar panels
+                    <i className="bx bxs-x-circle red"></i> 10KWH Saules elektrinė
                   </li>
                 </ul>
 
                 <div className="btn-box">
                   <Link to="/contact" className="default-btn">
                     <i className="flaticon-tick"></i>
-                    Select the Plan
+                    Pasirinkti planą
                     <span></span>
                   </Link>
                 </div>
@@ -48,7 +48,7 @@ const Pricing = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-pricing-box">
                 <div className="pricing-header">
-                  <h3>Monthly Expenses</h3>
+                  <h3>Mėnesinės išlaidos</h3>
                 </div>
 
                 <div className="price">
@@ -57,17 +57,17 @@ const Pricing = () => {
 
                 <ul className="pricing-features">
                   <li>
-                    <i className="bx bxs-badge-check"></i> 10KW Batery
+                    <i className="bx bxs-badge-check"></i> 10KW Kaupiklis (Baterija)
                   </li>
                   <li>
-                    <i className="bx bxs-x-circle red"></i> 10KWH Solar panels
+                    <i className="bx bxs-x-circle red"></i> 10KWH Saules elektrinė
                   </li>
                 </ul>
 
                 <div className="btn-box"> 
                   <Link to="/contact" className="default-btn">
                     <i className="flaticon-tick"></i>
-                    Select the Plan
+                    Pasirinkti planą
                     <span></span>
                   </Link>
                 </div>
@@ -86,17 +86,17 @@ const Pricing = () => {
 
                 <ul className="pricing-features">
                   <li>
-                    <i className="bx bxs-badge-check"></i> 10KW Batery
+                    <i className="bx bxs-badge-check"></i> 10KW Kaupiklis (Baterija)
                   </li>
                   <li>
-                    <i className="bx bxs-badge-check"></i> 10KWH Solar panels
+                    <i className="bx bxs-badge-check"></i> 10KWH Saules elektrinė
                   </li>
                 </ul>
 
                 <div className="btn-box">
                   <Link to="/contact" className="default-btn">
                     <i className="flaticon-tick"></i>
-                    Select the Plan
+                    Pasirinkti planą
                     <span></span>
                   </Link>
                 </div>

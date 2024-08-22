@@ -21,14 +21,14 @@ const Subscribe = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="subscribe-content">
-                <h2>Subscribe And Get The Latest Information</h2>
+                <h2>Naujienlaiškio prenumerata</h2>
                 {state.succeeded ? (
-                  <p>Thank you for subscribing!</p>
+                  <p>Ačiu!</p>
                 ) : (
                   <div>
 
                 <p>
-                Stay informed on AI-powered battery charging solutions. Subscribe to our newsletter for the latest news, insights, and exclusive offers. Join our community and optimize your home energy management today!
+                Būkite pirmi sužinoję apie geriausius pasiūlymus ir rinkos naujienas
                 </p>
 
                     <form className="newsletter-form" onSubmit={handleSubmit}>
@@ -48,7 +48,7 @@ const Subscribe = () => {
                       />
                       <button type="submit" className="default-btn" disabled={state.submitting}>
                         <i className="flaticon-tick"></i>
-                        Subscribe Now <span></span>
+                        Prenumeruoti <span></span>
                       </button>
                     </form>
                   </div>
