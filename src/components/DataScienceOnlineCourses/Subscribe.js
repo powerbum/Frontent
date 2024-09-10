@@ -35,7 +35,7 @@ const Subscribe = () => {
                       <input
                         type="email"
                         className="input-newsletter"
-                        placeholder="Enter your email address"
+                        placeholder="El. paštas"
                         name="email"
                         required
                         value={email}

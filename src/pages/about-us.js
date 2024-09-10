@@ -19,10 +19,10 @@ const AboutUsPage = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="About Us"
-        homePageText="Home"
+        pageTitle="Apie Mus"
+        homePageText="Namai"
         homePageUrl="/"
-        activePageText="About Us"
+        activePageText="Apie Mus"
       />
 
       <AboutUsContent />

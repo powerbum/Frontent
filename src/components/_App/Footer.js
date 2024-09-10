@@ -16,7 +16,7 @@ const Footer = () => {
                 <img src={logo} alt="logo" />
               </Link>
               <p>
-              Crafting Tomorrow's Sustainable Vision
+              Tvarios energijos ateitis
               </p>
 
               {/* <ul className="social-link">
@@ -66,17 +66,17 @@ const Footer = () => {
 
           <div className="col-lg-2 col-sm-6">
             <div className="single-footer-widget pl-5">
-              <h3>Explore</h3>
+              <h3>Naviguoti</h3>
 
               <ul className="footer-links-list">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/">Namai</Link>
                 </li>
                 <li>
-                  <Link to="/about-us">About</Link>
+                  <Link to="/about-us">Apie Mus</Link>
                 </li>
                  <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact">Kontaktai</Link>
                 </li>
                 {/*<li>
                   <Link to="/blog">Our Blog</Link>
@@ -138,8 +138,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <p>
-                Copyright @{currentYear} <strong>SMARTCHARGEAI</strong> All rights
-                reserved{" "}
+                @{currentYear} <strong>SMARTCHARGE</strong> {" "}
               </p>
             </div>
 

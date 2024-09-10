@@ -66,11 +66,11 @@ const Navbar = () => {
                           activeClassName="active"
                           onClick={() => setCollapsed(true)}
                           className="nav-link">
-                      Home
+                      Namai
                     </Link>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                           to="/services"
                           activeClassName="active"
@@ -79,7 +79,7 @@ const Navbar = () => {
                     >
                       Produktai
                     </Link>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
                     <Link
@@ -88,7 +88,7 @@ const Navbar = () => {
                           onClick={() => setCollapsed(true)}
                           className="nav-link"
                     >
-                      Apie mus
+                      Apie Mus
                     </Link>
                   </li>
 

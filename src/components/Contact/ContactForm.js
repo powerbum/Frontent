@@ -13,7 +13,7 @@ const ContactForm = () => {
       <section className="contact-area pb-100">
         <div className="container">
           <div className="section-title">
-            <h2>Contact Us</h2>
+            <h2>Susisiekite</h2>
           </div>
           <div className="row">
             <div className="col-lg-6 col-md-12">
@@ -25,7 +25,7 @@ const ContactForm = () => {
             <div className="col-lg-6 col-md-12">
               <div className="contact-form">
                 {state.succeeded ? (
-                  <p>Thank you for contacting us! We will get back to you shortly.</p>
+                  <p>Ačiū, kad susisiekėte su mumis! Atsakysime jums netrukus</p>
                 ) : (
                   <form onSubmit={handleSubmit}>
                     <div className="row">
@@ -37,7 +37,7 @@ const ContactForm = () => {
                             name="email"
                             className="form-control"
                             required
-                            placeholder="Your email address"
+                            placeholder="El. paštas"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                           />
@@ -56,7 +56,7 @@ const ContactForm = () => {
                             type="tel"
                             name="phone"
                             className="form-control"
-                            placeholder="Your phone number (optional)"
+                            placeholder="Jūsų telefono numeris (neprivalomas)"
                             value={phone}
                             onChange={(e) => setPhone(e.target.value)}
                           />
@@ -77,7 +77,7 @@ const ContactForm = () => {
                             cols="30"
                             rows="6"
                             required
-                            placeholder="Write your message..."
+                            placeholder="Parašykite savo žinutę..."
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                           />
@@ -87,7 +87,7 @@ const ContactForm = () => {
                       <div className="col-lg-12 col-md-12">
                         <button type="submit" className="default-btn" disabled={state.submitting}>
                           <i className="flaticon-tick"></i>
-                          Send Message <span></span>
+                          Siųsti<span></span>
                         </button>
                       </div>
                     </div>

@@ -19,6 +19,7 @@ import Pricing from "../components/SEOAgency/Pricing"
 import Subscribe from "../components/DataScienceOnlineCourses/Subscribe"
 import ContactForm from '../components/Contact/ContactForm';
 import ExpenseChart from '../components/Chart/ExpenseChart';
+import MembershipLevels from '../components/Membership/Membership'
 
 const IndexPage = () => {
   return (
@@ -28,13 +29,15 @@ const IndexPage = () => {
 
       <MainBanner />
 
-      <Pricing />
+      <MembershipLevels/>
 
-      <OurServices />
+      {/* <Pricing /> */}
+
+      {/* <OurServices /> */}
 
       <Subscribe />
 
-      <ExpenseChart />
+
       
       {/* <ContactForm/> */}
 

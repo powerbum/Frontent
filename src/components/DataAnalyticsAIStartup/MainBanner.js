@@ -26,7 +26,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  Dirbtinio intelekto valdomi namų energijos sprendimai
+                  AI valdomi namų energijos sprendimai
                 </h1>
 
                 <p
@@ -34,9 +34,8 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Pakeiskite savo namų energijos kraštovaizdį su mūsų namų baterijų prekybos sprendimu. 
-                  Maksimaliai padidinkite savo pelną parduodami sukauptą energiją, 
-                  kai kainos yra aukščiausios, ir pirkdami, kai jos yra žemiausios. 
+                  Parduokite energiją, kai kainos aukščiausios, ir pirkite, kai jos mažiausios 
+                  su mūsų dirbtinio intelekto valdomomis saulės elektrinėmis ir baterijomis.
                 </p>
 
                 <div
@@ -47,7 +46,7 @@ const MainBanner = () => {
                 >
                   <Link to="/about-us" className="default-btn">
                     <i className="flaticon-right"></i>
-                    About Us <span></span>
+                    Apie Mus <span></span>
                   </Link>
                   {/* <Link to="/profile-authentication" className="default-btn">
                     <i className="flaticon-tick"></i>
