@@ -14,10 +14,10 @@ const ContactPage = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Contact"
-        homePageText="Home"
+        pageTitle="Kontaktai"
+        homePageText="Namai"
         homePageUrl="/"
-        activePageText="Contact"
+        activePageText="Kontaktai"
       />
 
       {/* <ContactInfo /> */}

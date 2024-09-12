@@ -9737,3 +9737,119 @@ Go Top CSS
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   transform: translateY(-5px);
 }/*# sourceMappingURL=style.css.map */
+
+
+/* Calculator */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900&display=swap");
+
+body {
+  font-size: 17px;
+  font-family: "Nunito", sans-serif;
+}
+
+.solar-calculator {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f4f7fe;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.solar-calculator h2 {
+  font-weight: 800;
+  font-size: 34px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #221638;
+}
+
+.slider-container {
+  margin-bottom: 25px;
+}
+
+.slider-container label {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #221638;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background-color: #e3fbff;
+}
+
+.checkbox-container {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox-container label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #6b6b84;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.3);
+}
+
+.results-container {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e3fbff;
+  text-align: center;
+}
+
+.results-container h3 {
+  font-weight: 800;
+  color: #221638;
+  margin-bottom: 15px;
+}
+
+.results-container p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6b6b84;
+}
+
+.default-btn {
+  display: inline-block;
+  background-color: #ff5d22;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.default-btn:hover {
+  background-color: #221638;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .solar-calculator {
+    padding: 15px;
+  }
+
+  .solar-calculator h2 {
+    font-size: 28px;
+  }
+
+  .results-container p {
+    font-size: 16px;
+  }
+}

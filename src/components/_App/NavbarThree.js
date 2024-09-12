@@ -380,7 +380,7 @@ const NavbarThree = () => {
                           onClick={() => setCollapsed(true)}
                           className="nav-link"
                         >
-                          Contact
+                          Kontaktai
                         </Link>
                       </li>
 

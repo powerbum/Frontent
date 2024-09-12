@@ -26,7 +26,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  AI valdomi namų energijos sprendimai
+                  ĮDARBINK SAULĘ IR MOKĖK MAŽIAU!
                 </h1>
 
                 <p
@@ -34,8 +34,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Parduokite energiją, kai kainos aukščiausios, ir pirkite, kai jos mažiausios 
-                  su mūsų dirbtinio intelekto valdomomis saulės elektrinėmis ir baterijomis.
+                  Mūsų pažangi baterijų technologija ir unikalus rinkoje AI algoritmas užtikrina geresnę grąžą ir maksimalų efektyvumą.
                 </p>
 
                 <div
@@ -44,9 +43,9 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="300"
                 >
-                  <Link to="/about-us" className="default-btn">
+                  <Link to="/contact" className="default-btn">
                     <i className="flaticon-right"></i>
-                    Apie Mus <span></span>
+                    GAUTI PASIŪLYMĄ<span></span>
                   </Link>
                   {/* <Link to="/profile-authentication" className="default-btn">
                     <i className="flaticon-tick"></i>

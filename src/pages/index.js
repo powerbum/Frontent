@@ -20,6 +20,7 @@ import Subscribe from "../components/DataScienceOnlineCourses/Subscribe"
 import ContactForm from '../components/Contact/ContactForm';
 import ExpenseChart from '../components/Chart/ExpenseChart';
 import MembershipLevels from '../components/Membership/Membership'
+import Calculator from "../components/Calculator/Calculator"
 
 const IndexPage = () => {
   return (
@@ -29,11 +30,13 @@ const IndexPage = () => {
 
       <MainBanner />
 
+      <Calculator/>
+
       <MembershipLevels/>
 
-      {/* <Pricing /> */}
+      <Pricing />
 
-      {/* <OurServices /> */}
+      <OurServices />
 
       <Subscribe />
 
