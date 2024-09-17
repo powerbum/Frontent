@@ -3,7 +3,7 @@ import Layout from "../../components/_App/layout"
 import Seo from "../../components/_App/seo"
 import Navbar from "../../components/_App/Navbar"
 import PageBanner from "../../components/Common/PageBanner"
-import CoursesContent from "../../components/Courses/CoursesContent"
+import ProductsContent from "../../components/Products/ProductsContent"
 import Footer from "../../components/_App/Footer"
 
 const CoursesPage = () => {
@@ -13,13 +13,13 @@ const CoursesPage = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Course Grid"
-        homePageText="Home"
+        pageTitle="Produktai"
+        homePageText="Namai"
         homePageUrl="/"
-        activePageText="Course Grid"
+        activePageText="Produktai"
       />
 
-      <CoursesContent />
+      <ProductsContent />
 
       <Footer />
 

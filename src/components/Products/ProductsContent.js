@@ -4,7 +4,7 @@ import shape from "../../images/shape/vector-shape6.png"
 import deye from "../../images/products/hibridinis-inverteris-deye-sun.jpg"
 
 
-const CoursesContent = () => {
+const ProductsContent = () => {
   return (
     <>
       <div className="courses-area ptb-100 bg-fafafb">
@@ -14,7 +14,7 @@ const CoursesContent = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-courses-box">
                 <div className="courses-image">
-                  <Link to="/courses/course-details" className="d-block image">
+                  <Link to="/products/deye-sun-12k" className="d-block image">
                     <img src={deye} alt="about" />
                   </Link>
                   <Link to="#" className="fav">
@@ -252,4 +252,4 @@ const CoursesContent = () => {
   )
 }
 
-export default CoursesContent
+export default ProductsContent

@@ -62,10 +62,10 @@ const Navbar = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link
-                          to="/"
-                          activeClassName="active"
-                          onClick={() => setCollapsed(true)}
-                          className="nav-link">
+                      to="/"
+                      activeClassName="active"
+                      onClick={() => setCollapsed(true)}
+                      className="nav-link">
                       Namai
                     </Link>
                   </li>
@@ -83,10 +83,10 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                          to="/about-us"
-                          activeClassName="active"
-                          onClick={() => setCollapsed(true)}
-                          className="nav-link"
+                      to="/about-us"
+                      activeClassName="active"
+                      onClick={() => setCollapsed(true)}
+                      className="nav-link"
                     >
                       Apie Mus
                     </Link>
@@ -102,6 +102,54 @@ const Navbar = () => {
                       Kontaktai
                     </Link>
                   </li>
+
+                  <li className="nav-item">
+                    <Link
+                      to="/products"
+                      activeClassName="active"
+                      onClick={() => setCollapsed(true)}
+                      className="nav-link"
+                    >
+                      Produktai
+                    </Link>
+                  </li>
+
+{/* 
+                  <li className="nav-item">
+                    <Link
+                      to="#"
+                      onClick={e => e.preventDefault()}
+                      className="nav-link"
+                    >
+                      Produktai <i className="bx bx-chevron-down"></i>
+                    </Link>
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          to="/produktai"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          Courses
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          to="/courses/course-details"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          Course Details
+                        </Link>
+                      </li>
+                    </ul>
+                  </li> */}
+
+
 
                   {/* <li className="nav-item">
                     <Link

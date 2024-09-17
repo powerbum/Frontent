@@ -3,8 +3,7 @@ import Layout from "../../components/_App/layout"
 import Seo from "../../components/_App/seo"
 import Navbar from "../../components/_App/Navbar"
 import PageBanner from "../../components/Common/PageBanner"
-import CourseDetailsContent from "../../components/CoursesDetails/CourseDetailsContent"
-import RelatedCourses from "../../components/CoursesDetails/RelatedCourses"
+import ProductDetailsContent from "../../components/Products/ProductDetailsContent"
 import Footer from "../../components/_App/Footer"
 
 const CourseDetailsPage = () => {
@@ -14,15 +13,13 @@ const CourseDetailsPage = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Course Details"
-        homePageText="Home"
+        pageTitle="Deye SUN-12K-SG04LP3-EU"
+        homePageText="Namai"
         homePageUrl="/"
-        activePageText="Course Details"
+        activePageText="Deye SUN-12K-SG04LP3-EU"
       />
 
-      <CourseDetailsContent />
-
-      <RelatedCourses />
+      <ProductDetailsContent />
 
       <Footer />
 
