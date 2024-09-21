@@ -86,7 +86,6 @@ const ContactForm = () => {
 
                       <div className="col-lg-12 col-md-12">
                         <button type="submit" className="default-btn" disabled={state.submitting}>
-                          <i className="flaticon-tick"></i>
                           Siųsti<span></span>
                         </button>
                       </div>

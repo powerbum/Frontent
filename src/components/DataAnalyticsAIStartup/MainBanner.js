@@ -44,7 +44,6 @@ const MainBanner = () => {
                   data-aos-delay="300"
                 >
                   <Link to="/contact" className="default-btn">
-                    <i className="flaticon-right"></i>
                     GAUTI PASIŪLYMĄ<span></span>
                   </Link>
                   {/* <Link to="/profile-authentication" className="default-btn">
