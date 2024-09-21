@@ -1,18 +1,23 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
- */
+const path = require('path');
+const fs = require('fs');
 
-/**
- * @type {import('gatsby').GatsbyNode['createPages']}
- */
 exports.createPages = async ({ actions }) => {
-  const { createPage } = actions
-  createPage({
-    path: "/using-dsg",
-    component: require.resolve("./src/templates/using-dsg.js"),
-    context: {},
-    defer: true,
-  })
-}
+  const { createPage } = actions;
+
+  // Load product data from JSON
+  const productData = JSON.parse(fs.readFileSync('./src/data/products.json'));
+
+  // Define the product template file
+  const productTemplate = path.resolve('src/templates/product-template.js');
+
+  // Loop through each product and create a page
+  productData.forEach(product => {
+    createPage({
+      path: `/products/${product.slug}`, // Dynamic URL for each product
+      component: productTemplate, // Template to use
+      context: {
+        product, // Pass product data as context to the template
+      },
+    });
+  });
+};

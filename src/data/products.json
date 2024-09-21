@@ -1,0 +1,30 @@
+[
+  {
+    "key": 1,
+    "name": "Hibridinis inverteris Deye SUN-12K-SG04LP3-EU",
+    "price": "2350",
+    "image": "/products/hibridinis-inverteris-deye-sun.jpg",
+    "description": "<p>Deye žemos įtampos keitikliai yra kompaktiški ir veiksmingi įrenginiai, skirti nuolatinės srovės elektros energijai paversti kintamąja energija, tinkami naudoti žemos įtampos įrenginiuose, pvz., mažo masto saulės fotovoltinės (PV) sistemos ir ne tinklo įrenginiuose. Dėl savo patikimumo ir pažangių technologijų žinomi Deye inverteriai užtikrina aukštą konversijos efektyvumą ir sklandų integravimą su įvairiais atsinaujinančiais energijos šaltiniais. Su patogiomis sąsajomis šie inverteriai užtikrina lengvą energijos gamybos stebėjimą ir valdymą, todėl jie yra idealus pasirinkimas gyvenamosioms ir mažoms komercinėms patalpoms, kuriose siekiama švarios energijos sprendimų.</p>",
+    "techdetails": "<ul><li>Galia 12 kW</li><li>Fazės Trifazis</li><li>Svoris 40.00 kg</li><li>MPPT jungtys 2</li><li>Tipas Hibridinis</li><li>Garantija 5 metai</li></ul className=\"features-list\">",
+    "slug": "deye-sun-12k"
+  },
+  {
+    "key": 2,
+    "name": "Saulės energetika Trina TSM-445NEG9R.28",
+    "price": "75.33",
+    "image": "/products/trina.jpg",
+    "description": "<h3>Ypatybės</h3><ul className=\"features-list\"><li>Produkto ID: TSM-445NEG9R.28</li><li>Gamintojas: Trina</li><li>Prekinis ženklas: Vertex</li><li>Gamintojo kodas: TSM-445NEG9R.28</li><li>Kategorija: Saulės energetika</li></ul className=\"features-list\"><h3>Detaliau</h3><p>Trina TSM-445NEG9R.28 N-tipo monokristalinis saulės modulis 445W, 1762x1134x30, juodas rėmas su 25/30 metų garantija</p>",
+    "techdetails": "<ul><li>Elemento medžiaga: Monokristalinis</li><li>Elementų skaičius: 144</li><li>Mpp nominalioji galia: 445 Wp</li><li>Maks. sistemos įtampa: 1500 V</li><li>MPP įtampa: 41 V</li><li>Atviros grandinės įtampa: 49.4 V</li><li>MPP srovė: 8.17 A</li><li>Trumpo jungimosi srovė: 8.6 A</li><li>Modulio efektyvumo faktorius (STC): 22 %</li><li>Temperatūrinis koeficientas Isc: 0.04 %/K</li><li>Ilgis: 1762 mm</li><li>Plotis: 1134 mm</li><li>Aukštis: 30 mm</li><li>Svoris: 21.1 kg</li><li>Rėmo spalva: Juodas</li><li>Su jungimo kabeliu: TSM-445NEG9R.28</li></ul>",
+    "slug": "Saulės energetika Trina TSM-445NEG9R.28"
+  },
+  {
+    "key": 3,
+    "name": "Energijos kaupiklis BasenGreen 14.3",
+    "price": "2208",
+    "image": "/products/BasenGreen14.png",
+    "description": "<h3>Ypatybės</h3><ul><li>Dydis: 500 * 255 * 770mm</li><li>Svoris: 112KG</li><li>Garantija: iki 10 metų</li><li>Lygiagretaus pajungimo kiekis: 15P</li><li>Ciklo trukmė: 6000+</li><li>Ryšio funkcija: RS485/RS232/CAN</li></ul className=\"features-list\"><h3>Detaliau</h3><p>Naudojamas stabiliausias ir saugiausias ličio geležies fosfatas (LiFePO4) baterija</p><p>6000 ir daugiau ciklų, 15 metų tarnavimo laikas, užtikrinantis ilgalaikę energiją jūsų šeimai</p><p>svarbiausia, kad jame yra RS232/RS485/CAN magistralės prievadas, todėl bet kuriuo metu galite stebėti įrenginio informaciją savo mobiliajame telefone ar kompiuteryje.</p><p>Suderinamas su daugeliu pagrindinių rinkoje esančių keitiklių gamintojų</p><p>Nuotolinė diagnostika, duomenų stebėjimas realiuoju laiku</p>",
+    "techdetails": "<ul><li>Talpa: 280AH</li><li>Energija 14.33 kWh</li><li>Dimensija 475 * 255 * 770mm</li><li>Lygiagretus ryšys Palaikykite ne daugiau kaip 15 paralelių</li><li>Įkrovimo temperatūros diapazonas 0 ℃ ~ 60 ℃ (pasirinktinai: žemiau 0 ℃ papildomas šildymo mechanizmas)</li><li>Išleidimo temperatūros diapazonas -20 ℃ ~ 60 ℃ (žemesnėje nei 0 ℃ temperatūroje darbas su sumažintu pajėgumu)</li><li>Laikymo temperatūros diapazonas -40 ℃ ~ 55 ℃ esant 60 % ± 25 % santykinei oro drėgmei</li><li>Suderinami inverteriai SMA, Victron Energy, Deye, Goodwe, Growatt, Sermatec ir kt</li></ul>",
+    "slug": "Energijos kaupiklis BasenGreen 14.3"
+  }
+]
+

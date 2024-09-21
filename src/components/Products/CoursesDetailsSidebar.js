@@ -1,16 +1,16 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
-import deye from "../../images/products/hibridinis-inverteris-deye-sun.jpg"
+import React, { useState } from "react";
+import { Link } from "gatsby";
 
 // functional component
-const CoursesDetailsSidebar = () => {
-  const [toggler, setToggler] = useState(false)
+const CoursesDetailsSidebar = ({ price, image }) => {
+  const [toggler, setToggler] = useState(false);
 
   return (
     <>
       <div className="courses-details-info">
         <div className="image">
-          <img src={deye} alt="course1" />
+          {/* Render image from props */}
+          <img src={image} alt="product" />
         </div>
 
         <ul className="info">
@@ -19,7 +19,8 @@ const CoursesDetailsSidebar = () => {
               <span>
                 <i className="flaticon-price-tag"></i> Kaina
               </span>
-              $49
+              {/* Render price from props */}
+              €{price}
             </div>
           </li>
         </ul>
@@ -30,10 +31,9 @@ const CoursesDetailsSidebar = () => {
             Buy Now <span></span>
           </Link>
         </div>
-        
       </div>
     </>
-  )
-}
+  );
+};
 
-export default CoursesDetailsSidebar
+export default CoursesDetailsSidebar;
