@@ -70,17 +70,6 @@ const Navbar = () => {
                     </Link>
                   </li>
 
-                  {/* <li className="nav-item">
-                    <Link
-                          to="/services"
-                          activeClassName="active"
-                          onClick={() => setCollapsed(true)}
-                          className="nav-link"
-                    >
-                      Produktai
-                    </Link>
-                  </li> */}
-
                   <li className="nav-item">
                     <Link
                       to="/about-us"
@@ -89,6 +78,28 @@ const Navbar = () => {
                       className="nav-link"
                     >
                       Apie Mus
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                      to="/products"
+                      activeClassName="active"
+                      onClick={() => setCollapsed(true)}
+                      className="nav-link"
+                    >
+                      Produktai
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link
+                          to="/services"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                    >
+                      Paslaugos
                     </Link>
                   </li>
 
@@ -103,16 +114,7 @@ const Navbar = () => {
                     </Link>
                   </li>
 
-                  <li className="nav-item">
-                    <Link
-                      to="/products"
-                      activeClassName="active"
-                      onClick={() => setCollapsed(true)}
-                      className="nav-link"
-                    >
-                      Produktai
-                    </Link>
-                  </li>
+
 
 {/* 
                   <li className="nav-item">

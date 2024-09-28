@@ -14,10 +14,10 @@ const ServiceDetailsPage = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Service Details"
-        homePageText="Home"
+        pageTitle="Baterijų montavimas"
+        homePageText="Namai"
         homePageUrl="/"
-        activePageText="Batery Installation"
+        activePageText="Baterijų montavimas"
       />
 
       <BateryInstallation />

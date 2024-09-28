@@ -21,6 +21,7 @@ import ContactForm from '../components/Contact/ContactForm';
 import ExpenseChart from '../components/Chart/ExpenseChart';
 import MembershipLevels from '../components/Membership/Membership'
 import Calculator from "../components/Calculator/Calculator"
+import ServicesOne from "../components/Services/ServicesOne"
 
 const IndexPage = () => {
   return (
@@ -30,13 +31,15 @@ const IndexPage = () => {
 
       <MainBanner />
 
-      <Calculator/>
+      {/* <Calculator/> */}
 
       <MembershipLevels/>
 
-      <Pricing />
+      {/* <Pricing /> */}
 
-      <OurServices />
+      {/* <ServicesOne /> */}
+
+      <OurServices/>
 
       <Subscribe />
 

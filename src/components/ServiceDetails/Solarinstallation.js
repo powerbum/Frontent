@@ -12,29 +12,28 @@ const SolarInstallation = () => {
           <div className="row">
             <div className="col-lg-12 col-md-12">
               <div className="services-details-image">
-                <img src={details1} alt="about" />
+                {/* <img src={details1} alt="about" /> */}
               </div>
 
               <div className="services-details-desc">
-                <h3>Solar Panel Installation</h3>
-                <p>
-                Harness the Power of the Sun with Our Solar Panel Installation Service
-                </p>
-
-                <p>
-                Embrace renewable energy with our comprehensive solar panel installation service. Our team of experts is dedicated to helping you reduce your carbon footprint and lower your energy costs by utilizing the power of the sun.
-                </p>
-
-                <p>
-                Customized Solar Solutions: We understand that every home is unique. Our team designs custom solar solutions tailored to your specific energy needs, roof structure, and aesthetic preferences. This ensures you get the most efficient and visually appealing solar setup.
-Quality Solar Panels: We use high-efficiency solar panels from leading manufacturers. These panels are designed to provide maximum energy output, even in less-than-ideal weather conditions, ensuring you get the most out of your investment.
-Professional Installation: Our skilled technicians handle every aspect of the installation process. From securing necessary permits to mounting the panels and connecting them to your home’s electrical system, we ensure a smooth and hassle-free installation experience.
-System Integration: We ensure that your new solar panels seamlessly integrate with your home’s existing energy infrastructure, including any battery storage systems. This allows you to maximize your energy savings and minimize your environmental impact.
-Monitoring and Maintenance: We provide ongoing monitoring and maintenance services to ensure your solar panel system continues to operate at peak efficiency. Our team is always available to perform regular check-ups, cleanings, and any necessary repairs.
-By choosing our solar panel installation service, you’re investing in a sustainable energy solution that will pay off for years to come. Enjoy the benefits of renewable energy, reduce your electricity bills, and contribute to a cleaner, greener planet.
-                </p>
+                <section id="solar-installation">
+                  <h2>Saulės elektrinių montavimas</h2>
+                  <p>Saulės elektrinių montavimas yra puikus būdas sumažinti elektros sąnaudas ir prisidėti prie švaresnės aplinkos. Mes siūlome visapusiškas saulės elektrinių įrengimo paslaugas, pradedant nuo konsultacijos ir projektavimo iki galutinio montavimo ir sistemos paleidimo.</p>
+                  <h3>Mūsų paslaugos apima:</h3>
+                  <ul>
+                    <li>Individualiai pritaikytą saulės elektrinių projektavimą</li>
+                    <li>Profesionalų saulės modulių montavimą</li>
+                    <li>Inverterių ir kitų reikalingų komponentų įrengimą</li>
+                    <li>Sistemos testavimą ir prijungimą prie elektros tinklo</li>
+                    <li>Pagalbą gauti leidimus ir subsidijas</li>
+                  </ul>
+                  <p>Mūsų ekspertų komanda užtikrins kokybišką saulės elektrinės montavimą, atitinkantį visus saugumo ir efektyvumo reikalavimus, kad galėtumėte pradėti naudotis švaria ir atsinaujinančia energija.</p>
+                </section>
 
               </div>
+
+
+
             </div>
           </div>
         </div>

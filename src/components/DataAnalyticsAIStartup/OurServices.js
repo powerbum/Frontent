@@ -9,6 +9,7 @@ import icon5 from "../../images/services/service-icon5.png"
 import icon6 from "../../images/services/service-icon6.png"
 import shape1 from "../../images/services/service-shape1.png"
 import shape2 from "../../images/services/service-shape2.png"
+import ServicesOne from "../Services/ServicesOne"
 
 const OurServices = () => {
   return (
@@ -18,12 +19,14 @@ const OurServices = () => {
           <div className="section-title">
             <span className="sub-title">
               <img src={starIcon} alt="Icon" />
-              Our Services
+              Paslaugos
             </span>
-            <h2>We Offer Professional Solutions For Business</h2>
+<h2>Mūsų Paslaugos</h2>
           </div>
 
-          <div className="row">
+          <ServicesOne></ServicesOne>
+
+          {/* <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-item">
                 <div className="icon">
@@ -101,7 +104,6 @@ const OurServices = () => {
                 </div>
               </div>
             </div>
-{/* 
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-services-item">
                 <div className="icon">
@@ -184,17 +186,19 @@ const OurServices = () => {
                   <img src={shape2} alt="Icon" />
                 </div>
               </div>
-            </div> */}
+            </div> 
 
-            {/* <div className="col-lg-12 col-md-12">
+            <div className="col-lg-12 col-md-12">
               <div className="load-more-btn text-center">
                 <Link to="/services" className="default-btn">
                   <i className="flaticon-refresh"></i>
                   Load More <span></span>
                 </Link>
               </div>
-            </div> */}
-          </div>
+            </div> 
+          </div> */}
+          
+           
         </div>
       </section>
     </>

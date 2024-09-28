@@ -13,15 +13,15 @@ const ServicesPage = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Services"
-        homePageText="Home"
+        pageTitle="Paslaugos"
+        homePageText="Namai"
         homePageUrl="/"
-        activePageText="Services"
+        activePageText="Paslaugos"
       />
 
       <ServicesOne />
 
-      <StartProject />
+      {/* <StartProject /> */}
 
       <Footer />
     </Layout>
