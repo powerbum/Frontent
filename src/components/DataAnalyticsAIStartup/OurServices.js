@@ -21,7 +21,7 @@ const OurServices = () => {
               <img src={starIcon} alt="Icon" />
               Paslaugos
             </span>
-<h2>Mūsų Paslaugos</h2>
+            <h2>Mūsų Paslaugos</h2>
           </div>
 
           <ServicesOne></ServicesOne>
@@ -197,8 +197,8 @@ const OurServices = () => {
               </div>
             </div> 
           </div> */}
-          
-           
+
+
         </div>
       </section>
     </>

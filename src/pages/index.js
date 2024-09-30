@@ -31,6 +31,8 @@ const IndexPage = () => {
 
       <MainBanner />
 
+      <AboutUs />
+
       {/* <Calculator/> */}
 
       <MembershipLevels/>
@@ -42,6 +44,8 @@ const IndexPage = () => {
       <OurServices/>
 
       <Subscribe />
+
+
 
 
       

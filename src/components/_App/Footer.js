@@ -75,9 +75,16 @@ const Footer = () => {
                 <li>
                   <Link to="/about-us">Apie Mus</Link>
                 </li>
+                <li>
+                  <Link to="/products">Produktai</Link>
+                </li>
+                <li>
+                  <Link to="/services">Paslaugos</Link>
+                </li>
                  <li>
                   <Link to="/contact">Kontaktai</Link>
                 </li>
+
                 {/*<li>
                   <Link to="/blog">Our Blog</Link>
                 </li>

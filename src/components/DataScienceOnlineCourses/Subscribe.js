@@ -4,7 +4,7 @@ import subscribeImg1 from "../../images/subscribe-img1.png";
 import shape6 from "../../images/shape/vector-shape6.png";
 
 const Subscribe = () => {
-  const [state, handleSubmit] = useForm("xdoqvyka");
+  const [state, handleSubmit] = useForm("mldrqozo");
   const [email, setEmail] = useState('');
 
 
@@ -47,7 +47,7 @@ const Subscribe = () => {
                         errors={state.errors}
                       />
                       <button type="submit" className="default-btn" disabled={state.submitting}>
-                        <i className="flaticon-tick"></i>
+                        {/* <i className="flaticon-tick"></i> */}
                         Prenumeruoti <span></span>
                       </button>
                     </form>

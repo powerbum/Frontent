@@ -9853,3 +9853,15 @@ input[type="checkbox"] {
     font-size: 16px;
   }
 }
+
+.link-container {
+  width: 70px;
+  height: 70px;
+  display: inline-block; /* Ensures it's treated like a block element */
+}
+
+.solar-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover; /* Ensures the image fits within the dimensions */
+}
