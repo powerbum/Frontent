@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Rewy - Gatsby React IT Startup & Technology Template`,
-    description: `Gatsby React IT Startup & Technology Template`,
-    author: `@envytheme`,
-    siteUrl: `https://rewy-gatsby.envytheme.com`,
+    title: `SmartCharge - Saulės elektrinių Įranga ir Įrengimas`,
+    description: `SmartCharge - Saulės elektrinių Įranga ir Įrengimas`,
+    author: `SmartCharge`,
+    siteUrl: ``,
   },
   plugins: [
     `gatsby-plugin-image`,

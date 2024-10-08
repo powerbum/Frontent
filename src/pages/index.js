@@ -31,17 +31,19 @@ const IndexPage = () => {
 
       <MainBanner />
 
-      <AboutUs />
 
-      {/* <Calculator/> */}
 
-      <MembershipLevels/>
+      <Calculator/>
+
+      {/* <MembershipLevels/> */}
 
       {/* <Pricing /> */}
 
       {/* <ServicesOne /> */}
 
       <OurServices/>
+
+      <AboutUs />
 
       <Subscribe />
 

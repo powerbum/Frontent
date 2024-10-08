@@ -67,7 +67,7 @@ const AboutUs = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna.
                   </p> */}
-                  <Link to="/about-us" className="default-btn">
+                  <Link to="/algo" className="default-btn">
                     {/* <i className="flaticon-right"></i> */}
                     Sužinoti daugiau <span></span>
                   </Link>
