@@ -12,7 +12,7 @@ module.exports = {
     title: `SmartCharge - Saulės elektrinių Įranga ir Įrengimas`,
     description: `SmartCharge - Saulės elektrinių Įranga ir Įrengimas`,
     author: `SmartCharge`,
-    siteUrl: ``,
+    siteUrl: `http://smartcharge.lt`,
   },
   plugins: [
     `gatsby-plugin-image`,

@@ -1,33 +1,37 @@
 [
   {
-    "key": 1,
     "name": "Hibridinis inverteris Deye SUN-12K-SG04LP3-EU",
     "price": "2350",
     "image": "/products/hibridinis-inverteris-deye-sun-12k.jpg",
     "description": "<p>Deye SUN-12K-SG04LP3-EU Deye žemos įtampos keitikliai yra kompaktiški ir veiksmingi įrenginiai, skirti nuolatinės srovės elektros energijai paversti kintamąja energija, tinkami naudoti žemos įtampos įrenginiuose, pvz., mažo masto saulės fotovoltinės (PV) sistemos ir ne tinklo įrenginiuose. Dėl savo patikimumo ir pažangių technologijų žinomi Deye inverteriai užtikrina aukštą konversijos efektyvumą ir sklandų integravimą su įvairiais atsinaujinančiais energijos šaltiniais. Su patogiomis sąsajomis šie inverteriai užtikrina lengvą energijos gamybos stebėjimą ir valdymą, todėl jie yra idealus pasirinkimas gyvenamosioms ir mažoms komercinėms patalpoms, kuriose siekiama švarios energijos sprendimų.</p>",
     "techdetails": "<ul><li>Galia 12 kW</li><li>Fazės Trifazis</li><li>Svoris 40.00 kg</li><li>MPPT jungtys 2</li><li>Tipas Hibridinis</li><li>Garantija 5 metai</li></ul className=\"features-list\">",
-    "slug": "deye-sun-12k"
+    "slug": "deye-sun-12K-SG04LP3-EU"
   },
   {
-    "key": 2,
     "name": "Hibridinis inverteris Deye SUN-10K-SG04LP3-EU",
     "price": "2308",
     "image": "/products/hibridinis-inverteris-deye-sun-10k.jpg",
     "description": "<p>Deye SUN-10K-SG04LP3-EU Deye žemos įtampos keitikliai yra kompaktiški ir veiksmingi įrenginiai, skirti nuolatinės srovės elektros energijai paversti kintamąja energija, tinkami naudoti žemos įtampos įrenginiuose, pvz., mažo masto saulės fotovoltinės (PV) sistemos ir ne tinklo įrenginiuose. Dėl savo patikimumo ir pažangių technologijų žinomi Deye inverteriai užtikrina aukštą konversijos efektyvumą ir sklandų integravimą su įvairiais atsinaujinančiais energijos šaltiniais. Su patogiomis sąsajomis šie inverteriai užtikrina lengvą energijos gamybos stebėjimą ir valdymą, todėl jie yra idealus pasirinkimas gyvenamosioms ir mažoms komercinėms patalpoms, kuriose siekiama švarios energijos sprendimų.</p>",
     "techdetails": "<ul className=\"features-list\"><li>Galia 10 kW</li><li>Fazės Trifazis</li><li>Svoris 33.60 kg</li><li>MPPT jungtys 2</li><li>Tipas Hibridinis</li><li>Garantija 5 metai</li></ul>",
-    "slug": "deye-sun-12k"
+    "slug": "deye-sun-10K-SG04LP3-EU"
   },
   {
-    "key": 3,
     "name": "Hibridinis inverteris Deye SUN-5K-SG03LP1-EU",
     "price": "1300",
     "image": "/products/hibridinis-inverteris-deye-sun-5k.jfif",
     "description": "<p>Deye SUN-5K-SG03LP1-EU Deye žemos įtampos keitikliai yra kompaktiški ir veiksmingi įrenginiai, skirti nuolatinės srovės elektros energijai paversti kintamąja energija, tinkami naudoti žemos įtampos įrenginiuose, pvz., mažo masto saulės fotovoltinės (PV) sistemos ir ne tinklo įrenginiuose. Dėl savo patikimumo ir pažangių technologijų žinomi Deye inverteriai užtikrina aukštą konversijos efektyvumą ir sklandų integravimą su įvairiais atsinaujinančiais energijos šaltiniais. Su patogiomis sąsajomis šie inverteriai užtikrina lengvą energijos gamybos stebėjimą ir valdymą, todėl jie yra idealus pasirinkimas gyvenamosioms ir mažoms komercinėms patalpoms, kuriose siekiama švarios energijos sprendimų.</p>",
     "techdetails": "<ul className=\"features-list\"><li>Galia 5 kW</li><li>Fazės Trifazis</li><li>Svoris 25.00 kg</li><li>MPPT jungtys 2</li><li>Tipas Hibridinis</li><li>Garantija 5 metai</li></ul>",
-    "slug": "deye-sun-12k"
+    "slug": "deye-sun-5K-SG03LP1-EU"
   },
   {
-    "key": 4,
+    "name": "Inverteris Deye SUN-10K-G05",
+    "price": "620",
+    "image": "/products/inverteris-deye-sun-5k-g05.jpg",
+    "description": "<p>Deye SUN-10K-G05. Deye Inverters išsiskiria patikimu ir novatorišku požiūriu į galios sprendimus. Su pažangiausiomis funkcijomis, tokiomis kaip pažangi MPPT technologija, jie optimizuoja energijos vartojimo efektyvumą gyvenamosiose ir komercinėse patalpose.Sukurti taip, kad atlaikytų įvairias aplinkas, „Deye“ keitikliai užtikrina stabilią galią bet kokiomis sąlygomis.</p>",
+    "techdetails": "<ul className=\"features-list\"><li>Galia 10 kW</li><li>Fazės Trifazis</li><li>Svoris 10.00 kg</li><li>MPPT jungtys 2</li><li>Jungiamas prie tinklo</li><li>Garantija 10 metai</li></ul>",
+    "slug": "deye-sun-10K-G05"
+  },
+  {
     "name": "Energijos kaupiklis BasenGreen 14.3",
     "price": "2208",
     "image": "/products/BasenGreen14.png",
@@ -36,7 +40,6 @@
     "slug": "Energijos kaupiklis BasenGreen 14.3"
   },
   {
-    "key": 5,
     "name": "Saulės energetika Trina TSM-445NEG9R.28",
     "price": "75.33",
     "image": "/products/trina.jpg",
@@ -45,7 +48,6 @@
     "slug": "Saulės energetika Trina TSM-445NEG9R.28"
   },
   {
-    "key": 5,
     "name": "Saulės energetika Jinko Tiger Neo JKM-54HL4R-B 440W",
     "price": "85.00",
     "image": "/products/jinko.jpg",

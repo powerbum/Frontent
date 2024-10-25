@@ -11,8 +11,8 @@ const Calculator = () => {
     // Apskaičiuoja reikalingą saulės panelių skaičių
     const numberOfPanels = Math.ceil(averageMonthlyUsage / (dailySolarProduction * 31));
 
-    var costPerKwBefore = 490;
-    var costPerAfterApva = 180;
+    var costPerKwBefore = 550;
+    var costPerAfterApva = 230;
     const costBeforeApva = Math.ceil(numberOfPanels*costPerKwBefore);
     const costAfterApva = Math.ceil(numberOfPanels*costPerAfterApva);
 
